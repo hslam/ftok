@@ -26,11 +26,11 @@ import (
 )
 
 func main() {
-	key_t, err := ftok.Ftok("/tmp", 0x22)
+	key, err := ftok.Ftok("/tmp", 0x22)
 	if err != nil {
 		return
 	}
-	fmt.Printf("%x", key_t)
+	fmt.Printf("%x", key)
 }
 ```
 
