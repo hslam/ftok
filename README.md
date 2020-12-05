@@ -5,7 +5,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/hslam/ftok)](https://goreportcard.com/report/github.com/hslam/ftok)
 [![LICENSE](https://img.shields.io/github/license/hslam/ftok.svg?style=flat-square)](https://github.com/hslam/ftok/blob/master/LICENSE)
 
-Package ftok provides a way to generate a System V IPC key, suitable for use with msgget, semget, or shmget.
+Package ftok provides a way to generate a System V IPC key, suitable for using with msgget, semget, or shmget.
 
 ## Get started
 
